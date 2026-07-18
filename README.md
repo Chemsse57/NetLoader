@@ -1,4 +1,4 @@
-# CLR Loader
+# NetLoader
 
 In-memory .NET assembly loader written in pure C. Fetches an AES-encrypted payload over HTTP, decrypts it at runtime, and executes it through the CLR without dropping anything to disk.
 
