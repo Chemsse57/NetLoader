@@ -1,0 +1,4 @@
+*.exe
+*.obj
+*.enc
+payload/
