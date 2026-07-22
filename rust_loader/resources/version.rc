@@ -1,0 +1,42 @@
+#include <winver.h>
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION    1,2,4087,3
+PRODUCTVERSION 1,2,4087,3
+FILEFLAGSMASK  VS_FFI_FILEFLAGSMASK
+FILEFLAGS      0x0L
+FILEOS         VOS__WINDOWS32
+FILETYPE       VFT_APP
+FILESUBTYPE    VFT2_UNKNOWN
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName",      "Contoso Ltd."
+            VALUE "FileDescription",  "Multi-Tool Command Line Utility"
+            VALUE "FileVersion",      "1.2.4087.3"
+            VALUE "InternalName",     "mtool"
+            VALUE "LegalCopyright",   "Copyright (c) Contoso Ltd."
+            VALUE "OriginalFilename", "mtool.exe"
+            VALUE "ProductName",      "Contoso Toolkit"
+            VALUE "ProductVersion",   "1.2.4087.3"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0409, 1200
+    END
+END
+
+1 24 "app.manifest"
+
+101 ICON "app.ico"
+
+STRINGTABLE
+BEGIN
+    1, "Contoso Toolkit - Multi-Tool Command Line Utility"
+    2, "Copyright (c) Contoso Ltd. All rights reserved."
+    3, "Version 1.2.4087.3"
+    4, "Usage: mtool.exe [command] [options]"
+END
